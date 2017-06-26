@@ -1,0 +1,60 @@
+& {
+  background: $our-team-bg-color;
+  color: $our-team-text-color;
+
+  h2 {
+    margin: 3em 1em 1em;
+  }
+
+  .teammate {
+    margin: 4em 0;
+    padding: 0 2em;
+
+    &-photo {
+      height: 150px;
+      width: 150px;
+      background-position: center;
+      background-size: cover;
+      margin: 2em auto;
+      border-radius: 50%;
+    }
+
+    &-name {
+      color: $brand-primary;
+      font-size: 1.5em;
+      margin: .5em 0;
+    }
+
+    &-position {
+      color: lighten($brand-primary, 10%);
+      text-transform: uppercase;
+      margin: .5em 0;
+    }
+
+    &-links {
+      color: $brand-primary;
+      font-size: 1.3em;
+
+      i {
+        padding: 0 .5em;
+      }
+    }
+  }
+
+  .brands {
+    background-color: $brand-primary;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 1em 2em;
+
+    @include tablet {
+      padding: 1em 10em;
+    }
+
+    img {
+      max-width: 25vw;
+      height: 2em;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+& {
+  background: linear-gradient(rgba(73, 0, 168, 0.4),rgba(73, 0, 168, 0.4)), url('/assets/office.jpeg') center center no-repeat;
+  height: 100vh;
+
+  @include phone {
+    padding-top: 2em;
+  }
+}

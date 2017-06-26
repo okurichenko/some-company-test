@@ -1,0 +1,40 @@
+& {
+  position: relative;
+
+  .navbar {
+    background: $sc-navbar-bg-color;
+    border: none;
+  }
+
+  .navbar-brand, .navbar-nav > li > a {
+    color: $sc-navbar-text-color;
+  }
+
+  .navbar-toggle .icon-bar {
+    background: $sc-navbar-text-color;
+  }
+
+  .navbar-toggle {
+    &, &:hover, &:focus {
+      border: none;
+      background: transparent;
+      outline: none;
+    }
+  }
+
+  .navbar-collapse {
+    border: none;
+  }
+
+  @include phone {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 100;
+
+    .navbar {
+      background: $sc-navbar-bg-color-phone;
+    }
+  }
+}

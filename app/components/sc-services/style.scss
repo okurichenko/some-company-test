@@ -1,0 +1,23 @@
+& {
+  background: $services-bg-color;
+  color: $services-text-color;
+  padding: 0 1.5em;
+
+  h2 {
+    margin: 2em 0 1.5em;
+  }
+
+  h2, h4 {
+    color: $services-headings-color;
+  }
+
+  .fi {
+    font-size: 2em;
+    color: $brand-primary;
+  }
+
+  .service {
+    margin: 4em 0;
+    padding: 0 2em;
+  }
+}

@@ -1,0 +1,37 @@
+& {
+  background: $footer-bg-color;
+  color: $footer-text-color;
+  padding: 2em 1.5em 0 1.5em;
+
+  h2, h5 {
+    color: $footer-headings-color;
+    margin: 1em 0;
+  }
+
+  .fi {
+    font-size: 2em;
+    color: $footer-text-color;
+  }
+
+  a {
+    &, &:visited {
+      color: $services-text-color;
+    }
+
+    &:hover, &:active {
+      color: $services-headings-color;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    margin-top: 1em;
+    padding: .5em 0;
+    border-top: 1px solid #999;
+  }
+}

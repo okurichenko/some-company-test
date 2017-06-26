@@ -1,0 +1,29 @@
+.btn-primary {
+  background: $brand-primary;
+  border-bottom-width: 4px;
+  transition: all 200ms ease;
+
+  &:active {
+    border-bottom-width: 1px;
+    border-top: 3px solid transparent;
+  }
+}
+
+.btn-link {
+  color: $default-text-on-dark-color;
+  border: 1px solid $btn-link-border-color;
+  border-radius: $btn-link-border-radius;
+  transition: all 200ms ease;
+
+  &:hover {
+    color: $default-grey-text-color;
+    border: 1px solid $default-grey-text-color;
+    text-decoration: none;
+  }
+
+  &.grey {
+    color: $btn-link-border-color-grey;
+    border: 1px solid $btn-link-border-color-grey;
+    border-radius: $btn-link-border-radius;
+  }
+}

@@ -1,0 +1,25 @@
+& {
+  color: $default-text-on-dark-color;
+  padding: 4em 2em;
+
+  p {
+    margin-top: 2em;
+  }
+
+  div {
+    margin-top: 2em;
+  }
+
+  @include tablet {
+    div {
+      margin-top: 5em;
+    }
+  }
+
+  @include desktop {
+    div {
+      margin-top: 10em;
+    }
+  }
+
+}

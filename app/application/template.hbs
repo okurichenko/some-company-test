@@ -1,0 +1,23 @@
+<div id="application">
+  {{#first-screen}}
+    {{sc-header}}
+    {{sc-hero-header buttonClickHandler=(action (mut modalOpen) true)}}
+  {{/first-screen}}
+  {{redefining-web}}
+  {{sc-services}}
+  {{sc-our-team}}
+  {{sc-contact}}
+  {{sc-footer}}
+</div>
+
+{{#bs-modal open=modalOpen
+            onHide=(action (mut modalOpen) false)
+            onSubmit=(action (mut modalOpen) false) as |modal|}}
+  {{#modal.header}}
+    <h4 class="modal-title">Hi from modal!</h4>
+  {{/modal.header}}
+  {{#modal.body}}Here should be some layout, but it was absent in given assets :){{/modal.body}}
+  {{#modal.footer as |footer|}}
+    {{#bs-button onClick=(action modal.submit) type="success"}}Yeah!{{/bs-button}}
+  {{/modal.footer}}
+{{/bs-modal}}

@@ -1,0 +1,21 @@
+& {
+  background: $brand-primary;
+  color: $default-text-on-dark-color;
+  padding: 2em 1em 4em;
+
+  h2 {
+    margin-bottom: 2em;
+  }
+
+  @include phone {
+    min-height: 100vh;
+  }
+
+  img {
+    margin: 2em 0 1em;
+  }
+
+  button {
+    margin-top: 1em;
+  }
+}

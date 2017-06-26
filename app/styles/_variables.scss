@@ -1,0 +1,33 @@
+$sc-break-phone:              $screen-xs;
+$sc-break-tablet:             $screen-sm;
+$sc-break-desktop:            $screen-md;
+
+$default-text-on-dark-color:  #fff;
+$default-grey-text-color:     #999;
+
+$sc-navbar-bg-color-phone:    $brand-primary;
+$sc-navbar-bg-color:          rgba(0, 0, 0, 0);
+$sc-navbar-text-color:        $default-text-on-dark-color;
+
+$sc-first-screen-overlay:     rgba(73, 0, 168, 0.4);
+
+$btn-link-border-color:       #fff;
+$btn-link-border-radius:      4px;
+
+$btn-link-border-color-grey:  #999;
+$btn-link-border-radius:      4px;
+
+$services-bg-color:           rgb(26, 26, 26);
+$services-text-color:         $default-grey-text-color;
+$services-headings-color:     $default-text-on-dark-color;
+
+$our-team-bg-color:           #fff;
+$our-team-text-color:         #333;
+
+$contact-bg-color:            rgb(26, 26, 26);
+$contact-text-color:          $default-grey-text-color;
+$contact-headings-color:      $default-text-on-dark-color;
+
+$footer-bg-color:             rgb(23, 23, 23);
+$footer-text-color:           $default-grey-text-color;
+$footer-headings-color:       $default-text-on-dark-color;

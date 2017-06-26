@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-xs-12 text-center">
+    <h2>Services</h2>
+
+    <div class="col-sm-8 col-sm-offset-2">
+      <p>Curabitur sagittis lacus in dui vehicula aliquam. Maecenas ac posuere odio, et porta mi. Quisque diam tellus, laoreet nec auctor a, aliquam eu nulla. Curabitur efficitur ligula at risus volutpat, vitae volutpat sapien faucibus.</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  {{#each data as |service|}}
+    <div class="service col-sm-4 text-center">
+      <div class="service-icon"><i class="fi {{service.assetClassName}}"></i></div>
+      <h4>{{service.title}}</h4>
+      <p>{{service.desc}}</p>
+    </div>
+  {{/each}}
+</div>
+
